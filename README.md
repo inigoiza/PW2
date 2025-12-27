@@ -6,3 +6,4 @@
 4. Added global CSS file.
 5. Added content to CSS file. (Basic template created by me for other things)
 6. Added content to index.html.
+7. added content in about.html and the images
