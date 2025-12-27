@@ -8,3 +8,4 @@
 6. Added content to index.html.
 7. added content in about.html and the images
 8. Added all the classes in degree.html in a big table
+9. Added the whole description of fce in fce.html
