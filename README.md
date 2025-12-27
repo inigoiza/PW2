@@ -1,8 +1,8 @@
-# Practical Work II – Development Steps
+# Practical Work II
 
 1. Created the repository and initial project structure.
 2. Added required folders: css, images and public.
 3. Created all mandatory HTML files.
 4. Added global CSS file.
 5. Added content to CSS file. (Basic template created by me for other things)
-
+6. Added content to index.html.
