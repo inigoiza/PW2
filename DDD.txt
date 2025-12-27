@@ -1,0 +1,40 @@
+Design Detailed Document (DDD)
+1. Description of the work
+This project consists of the development of a personal website created as part of the Practical Work II for the subject Fundamentals of Computer Engineering.
+The objective of the website is to present a structured overview of the project, demonstrate the use of HTML and CSS, and provide access to different sections related to the degree and the contents learned during the course.
+The website has been developed using only standard web technologies:
+- HTML for structure
+- CSS for layout and styling
+The project follows the required folder structure and includes multiple interconnected pages, a global stylesheet, image assets, and proper documentation.
+
+2. Website structure
+The website is composed of the following sections:
+1. Home (index.html):
+    Presents the purpose of the website and provides an overview of all available sections.
+2. About:
+    Contains personal information, skills, languages, images, and social media links represented by icons.
+3. Degree:
+    Shows an overview of the Computer Engineering degree, organized by academic year and subjects.
+4. FCE:
+    Dedicated page for Fundamentals of Computer Engineering, explaining its objectives and relevance within the degree.
+5. Topic:
+    A thematic page focused on a specific topic related to computer engineering, in this case cybersecurity basics.
+6. Net:
+    Includes links to classmates’s websites developed as part of the same subject.
+7. Contact:
+    A contact form implemented using HTML only, without data storage or scripting.
+
+3. Development considerations
+During the development of the project, the following considerations were applied:
+A single external CSS file is used for all HTML pages. (I had to adjust a lot of things as i moved on)
+All images are stored in a folder to mantain order i guess.
+The project structure strictly follows the guidelines provided.
+No JavaScript or external libraries were used, even though i was tempted to use JS or Bootstrap.
+
+4. Problems during the development
+Did not have many problems as i have already done this Practical Work once and i have passed my theoretical examns in web development
+
+5. Conclusions
+This project allowed the practical application of fundamental web development concepts using HTML and CSS.
+It also reinforced the importance of project structure, version control, and documentation.
+The final result is a functional and well organized website that meets all the requirements of the practical work and demonstrates the skills acquired during the course.
