@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Practical Work II</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-bar">
+      <p class="brand">
+        Personal Website
+        <small>Practical Work II</small>
+      </p>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="degree.html">Degree</a></li>
+          <li><a href="fce.html">FCE</a></li>
+          <li><a href="topic.html">Topic</a></li>
+          <li><a href="net.html">Net</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h1>Contact</h1>
+
+      <p>
+        This form allows users to contact the website owner.  
+        The information is not stored and is only used for demonstration purposes.
+      </p>
+    </section>
+
+    <section class="card">
+      <form action="https://postman-echo.com/post" method="post">
+
+        <div class="form-row">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address">
+
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label>Preferred contact method</label>
+        <label>
+          <input type="radio" name="contact_method" value="email" checked>
+          Email
+        </label>
+        <label>
+          <input type="radio" name="contact_method" value="phone">
+          Phone
+        </label>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button class="button" type="submit">Send</button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+    2025 – Practical Work II - Iñigo Iza
+    </div>
+  </footer>
+
+</body>
+</html>
